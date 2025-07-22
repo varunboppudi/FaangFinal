@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"> <!-- Added data-theme attribute for theme management -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAANG Tech - Premier Tech Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <h2>
+                        <!-- <span class="logo-f">F</span>
+                        <span class="logo-a-apple">A</span>
+                        <span class="logo-a-amazon">A</span>
+                        <span class="logo-n">N</span>
+                        <span class="logo-g-blue">G</span>
+                        Tech -->
+                        <img src="https://faangtechlab.com/frontend/faang/faang/logo.png">
+                    </h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#codegym-platform">Our Tools</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#training-the-trainers">Trainers</a></li> <!-- Updated navigation link -->
+                <li><a href="#office-tour">Office Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Coding is The</span><br>
+                    Literacy of Tommorow
+                </h1>
+                <p class="hero-subtitle">
+                    Where innovation meets talent in the tech industry. Master Java programming and cybersecurity with expert-led coaching for tech industry success.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Start Learning</a>
+                    <a href="#contact" class="btn btn-secondary">Free Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="floating-elements">
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Security</span>
+                    </div>
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-code"></i>
+                        <span>Coding</span>
+                    </div>
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="700">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="800">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="floating-card" data-aos="fade-up" data-aos-delay="900">
+                        <i class="fas fa-server"></i>
+                        <span>Spring Boot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- New section for animated FAANG logos, placed at the bottom of the home section area -->
+    <section class="faang-logos-section">
+        <div class="faang-animated-logos">
+            <i class="fab fa-facebook-f facebook-logo"></i>
+            <i class="fab fa-apple apple-logo"></i>
+            <i class="fab fa-amazon amazon-logo"></i>
+            <span class="netflix-logo">N</span> <!-- Using span for Netflix 'N' -->
+            <i class="fab fa-google google-logo"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What's Most Important to Us</h2>
+                <p>Empowering individuals with Java programming and cybersecurity expertise to excel in technology</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation & Creativity</h3>
+                    <p>Join a dynamic team that thrives on creativity and innovation. We encourage out-of-the-box thinking and provide opportunities for you to bring your ideas to life.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Career Growth</h3>
+                    <p>Your career growth is our priority. Whether you're a seasoned professional or just starting out, we offer ample opportunities for advancement and professional development.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Impact</h3>
+                    <p>Make a difference in the lives of learners around the world. Our cutting-edge programs empower individuals to succeed in the fast-paced tech industry.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>Work alongside talented individuals from diverse backgrounds and disciplines, and contribute to projects that have a meaningful impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Premium Courses</h2>
+                <p>Master the most sought-after technologies with industry experts</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="course-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java Programming</h3>
+                    <p>Explore Java programming at FAANG Tech. Master this sought-after language with expert-led coaching for tech industry success.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Industry-level projects</li>
+                        <li><i class="fas fa-check-circle"></i> Expert mentorship</li>
+                        <li><i class="fas fa-check-circle"></i> Placement support</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="course-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Master cybersecurity, network security, and ethical hacking at FAANG Tech Lab for immediate application in today's tech landscape.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Hands-on labs</li>
+                        <li><i class="fas fa-check-circle"></i> Real-world scenarios</li>
+                        <li><i class="fas fa-check-circle"></i> Certification prep</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="course-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Programming</h3>
+                    <p>Learn Python from basics to advanced topics, including data science and web development frameworks.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Data Structures</li>
+                        <li><i class="fas fa-check-circle"></i> Web Development</li>
+                        <li><i class="fas fa-check-circle"></i> Automation Scripts</li>
+                        <li><i class="fas fa-check-circle"></i> FastAPI</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="course-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>MER(A)N Stack Development</h3>
+                    <p>Become a full-stack developer mastering MongoDB, Express.js, React.js, and Node.js for modern web applications.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Frontend & Backend</li>
+                        <li><i class="fas fa-check-circle"></i> API Development</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time Apps</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="course-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub Mastery</h3>
+                    <p>Master version control with Git and collaborate effectively using GitHub for professional software development.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Version Control</li>
+                        <li><i class="fas fa-check-circle"></i> Collaborative Workflow</li>
+                        <li><i class="fas fa-check-circle"></i> Project Management</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="course-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Spring Boot Framework</h3>
+                    <p>Build robust, production-ready Spring-based applications with ease and efficiency.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Microservices</li>
+                        <li><i class="fas fa-check-circle"></i> REST APIs</li>
+                        <li><i class="fas fa-check-circle"></i> Database Integration</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+                <div class="course-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="course-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI</h3>
+                    <p>AI development training equips you with the skills to build intelligent systems that learn, adapt, and transform the future of technology</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check-circle"></i> Machine Learning & Deep Learning</li>
+                        <li><i class="fas fa-check-circle"></i> Natural Language Processing (NLP)</li>
+                        <li><i class="fas fa-check-circle"></i> Computer Vision</li>
+                    </ul>
+                    <!-- Removed Learn More button -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New CodeGym Platform Section - Moved here -->
+    <section id="codegym-platform" class="codegym-platform">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Practice with Leading Platforms</h2>
+                <p>We empower our students with hands-on coding practice through collaborations with top-tier online platforms.</p>
+            </div>
+            <div class="codegym-content-wrapper"> <!-- Wrapper for horizontal scrolling -->
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="100">
+                    <div class="codegym-icon">
+                        <img src="https://play-lh.googleusercontent.com/oR-8P4gCy5uht8NZ2rk6wCt7WhwKwneGjwPUJCo_4ptenLtgSQCnrvXfa8ZRC9oJkFZJ" alt="CodeGym Logo" class="codegym-logo">
+                    </div>
+                    <h3>CodeGym</h3>
+                    <p class="codegym-description">
+                        CodeGym offers a gamified learning experience with thousands of tasks, instant solution verification, and a structured curriculum to help you master programming concepts.
+                    </p>
+                    <a href="https://codegym.cc/quests/lectures/en.questsyntaxpro.level10.lecture01" target="_blank" rel="noopener noreferrer" class="btn btn-primary codegym-btn">
+                        Explore CodeGym
+                    </a>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="codegym-icon">
+                        <img src="https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/6765dc51a13e31531996cef3_logo-dark.svg" alt="HackerRank Logo" class="codegym-logo">
+                    </div>
+                    <h3>HackerRank</h3>
+                    <p class="codegym-description">
+                        Sharpen your coding skills with HackerRank's diverse challenges, preparing you for technical interviews and competitive programming.
+                    </p>
+                    <a href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary codegym-btn">
+                        Practice on HackerRank
+                    </a>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="300">
+                    <div class="codegym-icon">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png" alt="LeetCode Logo" class="codegym-logo">
+                    </div>
+                    <h3>LeetCode</h3>
+                    <p class="codegym-description">
+                        Tackle algorithmic problems and data structure challenges on LeetCode to excel in coding interviews and enhance your problem-solving abilities.
+                    </p>
+                    <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary codegym-btn">
+                        Solve on LeetCode
+                    </a>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="400">
+                    <div class="codegym-icon">
+                        <!-- Placeholder for IntelliJ IDEA logo -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/JetBrains_IntelliJ_IDEA_Product_Logo.svg/2880px-JetBrains_IntelliJ_IDEA_Product_Logo.svg.png" alt="IntelliJ IDEA Logo" class="codegym-logo">
+                    </div>
+                    <h3>IntelliJ IDEA</h3>
+                    <p class="codegym-description">
+                        Utilize IntelliJ IDEA, the most intelligent Java IDE, to streamline your development workflow and boost your productivity.
+                    </p>
+                    <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener noreferrer" class="btn btn-primary codegym-btn">
+                        Explore IntelliJ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Meet Our Visionaries</h2>
+                <p>Learn from the best! Our team of founders and expert mentors are dedicated to your success.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="vj1.jpeg" alt="venkateswara-rao-jillellamudi">
+                            </div>
+                            <h3>Venkat Jillellamudi</h3>
+                            <p class="member-role">Co-Founder & CEO</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">As a Lead Senior Java Developer at JPMorgan Chase & Co.I have 9+ years of experience in developing web-based and client-server applications using JAVA/J2EE,Spring,Spring Boot,and Angular frameworks. 
+</p>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/venkateswara-rao-jillellamudi-0b2a19264/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://media.licdn.com/dms/image/v2/C4D03AQFV3WaS23AgjQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517342864615?e=1755734400&v=beta&t=XzkQnZzk2vUx8DjHKqSYVfECV6tZJScYyAULLcY8Fng" alt="John Smith">
+                            </div>
+                            <h3>Ashok Babu Kolla</h3>
+                            <p class="member-role">Co-Founder & MD</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">Passionate SAP Analyst with a proven track record in optimizing business processes and driving technological efficiency.</p>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/ashokkolla/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+
+
+                                <!-- <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://via.placeholder.com/150/28a745/FFFFFF?text=Mentor+1" alt="Alice Williams">
+                            </div>
+                            <h3>Suresh Babu Madala</h3>
+                            <p class="member-role">Lead Java Trainer</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">A Senior Software Engineer with a deep expertise in Java and Spring Boot. Alice has mentored hundreds of aspiring developers.</p>
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://via.placeholder.com/150/ffc107/FFFFFF?text=Mentor+2" alt="Robert Brown">
+                            </div>
+                            <h3>Chandana</h3>
+                            <p class="member-role">Data Structures and Algorithms</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">Specializing in network security and ethical hacking, Robert brings real-world threat intelligence and defense strategies to the classroom.</p>
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://via.placeholder.com/150/ffc107/FFFFFF?text=Mentor+2" alt="Robert Brown">
+                            </div>
+                            <h3>Krishna Reddy</h3>
+                            <p class="member-role">MERN Stack Trainer</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">Specializing in network security and ethical hacking, Robert brings real-world threat intelligence and defense strategies to the classroom.</p>
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://via.placeholder.com/150/ffc107/FFFFFF?text=Mentor+2" alt="Robert Brown">
+                            </div>
+                            <h3>Chandrakal</h3>
+                            <p class="member-role">Java Trainer</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">Specializing in network security and ethical hacking, Robert brings real-world threat intelligence and defense strategies to the classroom.</p>
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-photo">
+                                <img src="https://via.placeholder.com/150/ffc107/FFFFFF?text=Mentor+2" alt="Robert Brown">
+                            </div>
+                            <h3>Bindu</h3>
+                            <p class="member-role">Java Trainer</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="member-bio">Specializing in network security and ethical hacking, Robert brings real-world threat intelligence and defense strategies to the classroom.</p>
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:someone@example.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+                                <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Training the Trainers Section -->
+    <section id="training-the-trainers" class="training-the-trainers">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Train the Trainers</h2>
+                <p>Empowering educators and industry professionals to deliver high-quality tech education.</p>
+            </div>
+            <div class="codegym-content-wrapper"> <!-- Reusing codegym-content-wrapper for consistent styling and auto-scroll -->
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="100">
+                    <div class="codegym-icon">
+                        <img src="https://i.pinimg.com/1200x/0e/1b/49/0e1b4984c22ff810051677b8c7a29e7d.jpg" alt="Trainer 1" class="codegym-logo">
+                    </div>
+                    <h3>Curriculum Mastery</h3>
+                    <p class="codegym-description">
+                        Our program ensures trainers deeply understand the curriculum, enabling them to teach effectively and answer complex questions.
+                    </p>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="codegym-icon">
+                        <img src="https://i.pinimg.com/736x/a7/99/d0/a799d0592bae082bbd34c3ce9476491b.jpg" alt="Trainer 2" class="codegym-logo">
+                    </div>
+                    <h3>Pedagogical Skills</h3>
+                    <p class="codegym-description">
+                        We train on modern teaching methodologies, interactive session facilitation, and student engagement techniques.
+                    </p>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="300">
+                    <div class="codegym-icon">
+                        <img src="https://i.pinimg.com/736x/81/14/2f/81142f97f4f7aed36e6d653a0779599d.jpg" alt="Trainer 3" class="codegym-logo">
+                    </div>
+                    <h3>Hands-on Labs</h3>
+                    <p class="codegym-description">
+                        Trainers gain expertise in setting up and managing practical lab sessions, crucial for applied learning.
+                    </p>
+                </div>
+                <div class="codegym-content" data-aos="fade-up" data-aos-delay="400">
+                    <div class="codegym-icon">
+                        <img src="https://i.pinimg.com/736x/f7/d0/16/f7d01662a6cb4a6c8271a993b09c4099.jpg" alt="Trainer 4" class="codegym-logo">
+                    </div>
+                    <h3>Continuous Mentorship</h3>
+                    <p class="codegym-description">
+                        We provide ongoing support and mentorship to our trainers, ensuring their continuous professional development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Office Tour Section -->
+    <section id="office-tour" class="office-tour">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Office Environment</h2>
+                <p>Take a virtual tour of our state-of-the-art facility designed for optimal learning and collaboration.</p>
+            </div>
+            <div class="office-gallery" data-aos="fade-up" data-aos-delay="100">
+                <img src="f2.jpeg" alt="Office View 6" loading="lazy">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN3X-uxMj3QlbsLaCrEIQQU6ZpimjFxukPpDdje=s1360-w1360-h1020" alt="Office View 1" loading="lazy">
+                <img src="f1.jpeg" alt="Office View 2" loading="lazy">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipNTPvOJN0lVxce1A8HMjGu7GQcIeC3C0H5BtEc-=s1360-w1360-h1020" alt="Office View 3" loading="lazy">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOW9ua4idf8KcV1dBbxEJ_dB_cg144ECNAgppdC=s1360-w1360-h1020" alt="Office View 4" loading="lazy">
+                
+                
+                <!-- Note: The image AF1QipOecYE0adYSHPcbzzNqSvJAnW9IuVA2_DUMA3xW=s1360-w1360-h1020 was duplicated in your request, so I've included it once as a unique image. -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you! Reach out for any inquiries or to book a free demo.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Lakshmipuram, Guntur, Andhra Pradesh, India</p>
+                    <p><i class="fas fa-envelope"></i> learn@faangtechlab.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 81794 23238</p>
+                    <p><i class="fas fa-globe"></i> <a href="https://faangtechlab.com" target="_blank" rel="noopener noreferrer">faangtechlab.com</a></p>
+                    <p><i class="fas fa-clock"></i> Always open</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/faangtechlab/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/faang-tech-lab-043855349/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="https://www.linkedin.com/in/venkateswara-rao-jillellamudi-0b2a19264/" target="_blank" rel="noopener noreferrer" aria-label="CEO LinkedIn"><i class="fab fa-linkedin-in"></i> <span class="sr-only">CEO LinkedIn</span></a> -->
+                        <!-- Added a screen reader only span for the CEO LinkedIn to differentiate if needed -->
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Send Us a Message</h3>
+                    <form action="#" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
+                        <div id="form-message" class="form-message"></div> <!-- Message display area -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/918179423238?text=Hi%20Team%2C%20I%27m%20interested%20in%20your%20Courses." 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+    <!-- Full Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about-col">
+                    <h3>FAANG Tech</h3>
+                    <p>Empowering the next generation of tech professionals with cutting-edge education in Java, Cybersecurity, and more.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Our Courses</a></li>
+                        <li><a href="#codegym-platform">CodeGym</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#training-the-trainers">Trainers</a></li> <!-- Updated footer link -->
+                        <li><a href="#office-tour">Office Tour</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>Java Programming</li>
+                        <li>Cybersecurity</li>
+                        <li>Python Programming</li>
+                        <li>MERN Stack Development</li>
+                        <li>Git & GitHub Mastery</li>
+                        <li>Spring Boot Framework</li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Lakshmipuram, Guntur, Andhra Pradesh, India</p>
+                    <p><i class="fas fa-envelope"></i> learn@faangtechlab.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 81794 23238</p>
+                    <div class="social-links footer-social">
+                        <a href="https://www.instagram.com/faangtechlab/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/faang-tech-lab-043855349/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="https://www.linkedin.com/in/venkateswara-rao-jillellamudi-0b2a19264/" target="_blank" rel="noopener noreferrer" aria-label="CEO LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {new Date().getFullYear()} FAANG Tech. All rights reserved. Designed by Varun.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("AykPnE3XQajTkGlpt"); // Replace with your EmailJS public key
+  })();
+</script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true, // animations only once
+            offset: 100, // Offset (in px) from the top of the screen to trigger animations
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
