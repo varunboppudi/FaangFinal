@@ -623,6 +623,32 @@ html[data-theme='dark'] .google-logo { color: #8ab4f8; }
     padding: var(--spacing-xl) 0;
     transition: background var(--theme-transition-duration) ease;
 }
+.mission-vision-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.mission-vision-grid .about-card {
+    flex: 1 1 45%;
+    background-color: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .mission-vision-grid {
+        flex-direction: column;
+    }
+}
+
 
 html[data-theme='dark'] .about {
     background: var(--bg-section-unified-dark);
@@ -697,7 +723,7 @@ html[data-theme='dark'] .courses {
     flex: 0 0 auto;
     width: 320px;
     background-color: var(--bg-card);
-    padding: var(--spacing-lg);
+    padding: 0.5rem var(--spacing-lg); /* ⬅️ Reduced top and bottom padding */
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-light);
     display: flex;
@@ -706,6 +732,8 @@ html[data-theme='dark'] .courses {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color var(--theme-transition-duration) ease;
 }
+
+
 
 .course-card:hover {
     transform: translateY(-8px);
@@ -937,10 +965,10 @@ html[data-theme='dark'] .codegym-platform {
 
 .codegym-content {
     flex: 0 0 auto;
-    width: 400px;
-    min-height: 320px;
+    width: 350px;
+    min-height: 300px;
     background-color: var(--bg-card);
-    padding: var(--spacing-lg);
+    padding: 1rem var(--spacing-lg);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-light);
     display: flex;
@@ -987,6 +1015,7 @@ html[data-theme='dark'] .codegym-platform {
 }
 
 
+
 /* Training the Trainers Section (New) */
 .training-the-trainers {
     background: var(--bg-section-unified-light);
@@ -1006,7 +1035,7 @@ html[data-theme='dark'] .training-the-trainers {
 }
 
 .training-the-trainers .codegym-content {
-    width: 400px;
+    width: 300px;
 }
 
 .training-the-trainers .codegym-icon .codegym-logo {
