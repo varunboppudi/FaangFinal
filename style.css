@@ -17,7 +17,7 @@
     --bg-body: #FCF3C3; /* Light Sand - Overall body background */
     --bg-section-unified-light: linear-gradient(135deg, #E8F0FA 0%, #FCF3C3 100%); /* Cloud Blue to Light Sand gradient for sections */
     --bg-card: #FFFFFF; /* Crisp White for cards */
-    --bg-dark-footer: #0B1B32; /* Even Darker Blue for footer */
+    --bg-dark-footer: #e8eaee; /* Even Darker Blue for footer */
 
     --border-color: #EAEBEF; /* Silver Gray - Dividers, input backgrounds */
     --shadow-light: rgba(0, 0, 0, 0.05) 0px 4px 15px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px; /* Softer neutral shadow */
@@ -1224,7 +1224,7 @@ html[data-theme='dark'] .form-message.error {
 
 /* Full Footer */
 .footer {
-    background-color: var(--bg-dark-footer); /* Footer background uses dark blue */
+    background-color: black; /* Footer background uses dark blue */
     color: #e9ecef;
     padding: var(--spacing-xl) 0 var(--spacing-md) 0;
     font-size: 1rem;
